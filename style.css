@@ -1,14 +1,10 @@
-/* 
- * This CSS rule targets the element with the class 'ewqew'.
- * It applies the following styles:
- * - Sets the background color to a specific value.
- * - Adjusts the font size to a specified value.
- * - Applies padding around the element.
- * - Sets the margin to a specified value.
- * - Defines the border properties including width, style, and color.
- */
-body {
+* {
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
+}
+
+body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
@@ -16,108 +12,121 @@ body {
     text-align: center;
 }
 
-header {        
+header {
     width: 100%;
     background: #1f2937;
-             color: white;
-             padding: 20px;
-             display: flex;
-             justify-content: space-between;
-             align-items: center;
-         }
-         nav ul {
-             list-style: none;
-             display: flex;
-             gap: 20px;
-         }
-         nav a {
-             color: white;
-             text-decoration: none;
-         }
-         .hero {
-             background: #1f2937;
-             color: white;
-             padding: 50px;
-             display: flex;
-             justify-content: space-between;
-             width: 100%;
-         }
-         .hero-text {
-             max-width: 50%;
-             
-         }
-         .h-text{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: left;
-                font-size: 40px;
-                font-weight: 700;
-                margin-bottom: 20px
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-         }
-         div.hero-text p {
-             font-size: 20px;
-             font-weight: 500;
-             margin-bottom: 20px;
-             text-align: left;
-             display: flex;
-             flex-direction: column;
-             align-items: center;
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
 
+nav a {
+    color: white;
+    text-decoration: none;
+}
 
-         }
-         .hero-image {
-             background: gray;
-             width: 300px;
-             height: 200px;
-            
-         }
-         
-#ew{
-             background: #3882f6;
-             color: white;
-             padding: 8px;
-             width: 30%; 
-             border: 20px #3882f6 ;
-             border-radius: 5px;
-         }
+.hero {
+    background: #1f2937;
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
 
-         .info {
-             padding: 50px;
-         }
-         .info-container {
-             display: flex;
-             justify-content: center;
-             gap: 35px;
-         }
-         .info-box {
-             width: 100px;
-             height: 100px;
-             border: 3px solid #3882f6;
-             border-radius: 10px;
-         }
-         .quote {
-             background: lightgray;
-             padding: 50px;
-             font-style: italic;
-         }
-         .cta {
-             background: #3882f6;
-             padding: 20px;
-             display: flex;
-             justify-content: center;
-             align-items: center;
-         }
-         .cta-box {
-             display: flex;
-             gap: 20px;
-             align-items: center;
-         }
+.hero-text {
+    max-width: 50%;
+}
+
+.h-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 80%;
+}
+
+.hero-text p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-image {
+    background: gray;
+    width: 300px;
+    height: 200px;
+}
+
+#ew {
+    background: #3882f6;
+    color: white;
+    border: 12px solid #3882f6;
+    border-radius: 5px;
+}
+
+.info {
+    padding: 100px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.info-box {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.quote {
+    background: lightgray;
+    padding: 50px;
+    font-style: italic;
+}
+
+.cta {
+    background: #3882f6;
+    width: 85%;
+    padding: 20px;
+    border-radius: 5q;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.cta-box {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
 footer {
-             background: #1f2937;
-             color: white;
-             padding: 10px;
-             width: 100%;
-             text-align: center;
-         }
+    background: #1f2937;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
