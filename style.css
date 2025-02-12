@@ -3,11 +3,11 @@
     margin: 0;
     padding: 0;
 }
-:root {
+/* :root {
     --color-dark: #1f2937;
     --color-light: #e5e7eb;
     color-scheme: light dark;
-} 
+}  */
  /* Реалізація темної та світлої теми через псевдокласи */
 
 body {
@@ -16,14 +16,14 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    color:light-dark(
+    /* color:light-dark(
         var(--color-dark),
         var(--color-light)
-    )
+    );
     background-color:light-dark(
         var(--color-dark),
         var(--color-light)
-    )
+    ); */
 }
 
 header {
@@ -142,21 +142,21 @@ nav a {
 }
 .cta {
     background: #3882f6;
-    width: 80%;
+    width: 70%;
     height: 150px;
     border-radius: 6q;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;   
+    /* align-items: flex-end; */
     color: white;
     font-size: 20px;
     margin-bottom: 5em;
-    
+      
 }
 
 .cta-box {
     display: flex;
-    gap: 100px;
+    gap: 400px;
     align-items: center;
     justify-content: flex-start;
     
@@ -176,7 +176,7 @@ nav a {
 footer {
     background: #1f2937;
     color: white;
-    padding: 10px;
+    padding: 30px;
     width: 100%;
     text-align: center;
 }
