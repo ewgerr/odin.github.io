@@ -1,8 +1,14 @@
-* {
+/* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
+} */
+:root {
+    --color-dark: #1f2937;
+    --color-light: #e5e7eb;
+    color-scheme: light dark;
+} 
+ /* Реалізація темної та світлої теми через псевдокласи */
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -10,6 +16,14 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    color:light-dark(
+        var(--color-dark),
+        var(--color-light)
+    )
+    background-color:light-dark(
+        var(--color-dark),
+        var(--color-light)
+    )
 }
 
 header {
@@ -116,12 +130,19 @@ nav a {
     text-align: justify;
     font-size: 36px;
     padding: 20px;
-    font-weight: lighter;
+    font-weight: 100;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.quote div cite {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
 .cta {
     background: #3882f6;
     width: 80%;
