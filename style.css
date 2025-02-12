@@ -1,8 +1,8 @@
-/* * {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-} */
+}
 :root {
     --color-dark: #1f2937;
     --color-light: #e5e7eb;
@@ -117,12 +117,10 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 50px; */
     margin-bottom: 7em;
     
 }
 .quote div {
-    /* border: #3882f6 2px solid; */
     color: #1f2937;
     height: 300px;
     width: 48%;
@@ -139,7 +137,6 @@ nav a {
 .quote div cite {
     font-size: 25px;
     font-weight: 700;
-    text-align: right;
     display: flex;
     justify-content: flex-end;
 }
