@@ -72,7 +72,7 @@ nav a {
     height: 200px;
 }
 
-#ew {
+.hero_bat {
     background: #3882f6;
     color: white;
     border: 12px solid #3882f6;
@@ -97,21 +97,42 @@ nav a {
 }
 
 .quote {
-    background: lightgray;
-    padding: 50px;
+    height: 400px;
+    width: 100%;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 50px; */
+    margin-bottom: 7em;
+    
+}
+.quote div {
+    /* border: #3882f6 2px solid; */
+    color: #1f2937;
+    height: 300px;
+    width: 48%;
     font-style: italic;
+    text-align: justify;
+    font-size: 36px;
+    padding: 20px;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .cta {
     background: #3882f6;
-    width: 85%;
-    padding: 20px;
-    border-radius: 5q;
+    width: 80%;
+    height: 150px;
+    border-radius: 6q;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     font-size: 20px;
+    margin-bottom: 5em;
     
 }
 
@@ -122,6 +143,17 @@ nav a {
     justify-content: flex-start;
     
 }
+
+.cta_bat {
+    height: 30px;
+    width: 100px;
+    background-color: #3882f6;
+    color: rgb(253, 252, 252);
+    border: 2px solid #f6f6f6;
+    border-radius: 5px;
+    
+}
+
 
 footer {
     background: #1f2937;
