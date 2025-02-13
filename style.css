@@ -37,18 +37,37 @@ header {
     align-items: center;
 }
 
+.header-container {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    gap: 900px;
+    width: 100%;
+}
+.logo 
+{
+    font-size: 24px;
+    font-weight: 600;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+}
 nav ul {
+    /* border: 1px solid red; */
     list-style: none;
     display: flex;
     gap: 20px;
 }
 
 nav a {
+    /* border: 1px solid red; */
     color: white;
     text-decoration: none;
 }
 
 .hero {
+    /* border: 1px solid red; */
     background: #1f2937;
     color: white;
     padding: 50px;
