@@ -26,7 +26,14 @@ body {
     ); */
 }
 
-
+.dark-background {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f2937;
+    color: white;
+}
 header {
     width: 100%;
     background: #1f2937;
@@ -36,94 +43,60 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
-.header-container {
-    /* border: 1px solid red; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30px;
-    gap: 900px;
-    width: 100%;
-}
-.logo 
-{
+.logo {
     font-size: 24px;
     font-weight: 600;
-    /* text-transform: uppercase; */
     letter-spacing: 2px;
 }
 nav ul {
-    /* border: 1px solid red; */
     list-style: none;
     display: flex;
     gap: 20px;
 }
-
 nav a {
-    /* border: 1px solid red; */
     color: white;
     text-decoration: none;
 }
-/* верхню частину коду не чіпати */
-
 .hero {
-    /* border: 1px solid red; */
     background: #1f2937;
     color: white;
-    padding: 50px;
+    padding: 70px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    width: 100%;
-    gap: 20px;
-}
-
-.hero-text {
-    /* border: 1px solid red; */
-    height: 100%;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-}
-
-.h-text {
-    display: flex;
-    flex-direction: column;
     align-items: center;
+    width: 100%;
+    margin: auto;
+}
+.hero-text {
+    width: 50%;
     text-align: left;
+}
+.hero-text h1 {
     font-size: 40px;
     font-weight: 700;
     max-width: 80%;
 }
-
 .hero-text p {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 20px;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
-
 .hero-image {
+    background: gray;
+    width: 500px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
-    background: gray;
-    width: 300px;
-    height: 200px;
 }
-
 .hero_bat {
     width: 200px;
     font-size: large;
     background: #3882f6;
     color: white;
-    border: 12px solid #3882f6;
+    border: none;
     border-radius: 5px;
+    padding: 10px;
 }
  /* Це частина яка відносится до верхньої частини  */
 
